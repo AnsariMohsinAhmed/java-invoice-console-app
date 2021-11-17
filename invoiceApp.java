@@ -1,9 +1,6 @@
 public class invoiceApp {
     public static void main(String[] args) {
         int choice, numberOfProducts = 0, totalAmount;
-        // String name[] = new String[20];
-        // int price[] = new int[20];
-        // int quantity[] = new int[20];
         String name[] = new String[0];
         int price[] = new int[0];
         int quantity[] = new int[0];
@@ -38,10 +35,6 @@ public class invoiceApp {
                 }
                 break;
             case 2:
-                // name = new String[numberOfProducts];
-                // price = new int[numberOfProducts];
-                // quantity = new int[numberOfProducts];
-
                 if (name.length == 0 && price.length == 0 && quantity.length == 0) {
                     System.out.println("No products added.");
                 } else {
