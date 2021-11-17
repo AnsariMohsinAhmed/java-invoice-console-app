@@ -4,6 +4,7 @@ public class invoiceApp {
         String name[] = new String[0];
         int price[] = new int[0];
         int quantity[] = new int[0];
+
         do {
             System.out.println();
             System.out.println("******************");
@@ -23,6 +24,7 @@ public class invoiceApp {
                 name = new String[numberOfProducts];
                 price = new int[numberOfProducts];
                 quantity = new int[numberOfProducts];
+
                 for (int i = 0; i < numberOfProducts; i++) {
                     int productNumber = i + 1;
                     System.out.println("Product " + productNumber);
